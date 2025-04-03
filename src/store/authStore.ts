@@ -64,7 +64,7 @@ const useAuthStore = create<AuthState>((set) => {
 
         set(newState);
       } catch (error) {
-        console.error("Registration failed:", error);
+        console.log("Registration failed:", error);
       }
     },
 
